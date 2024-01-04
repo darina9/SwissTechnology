@@ -1,0 +1,665 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter';
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.center__content{
+    padding-left: calc(50% - 420px);
+    padding-right: calc(50% - 420px); 
+}
+
+
+
+.header{
+    
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.background-left{
+    display: block;
+    height: 477px;
+    width: 664px;
+    background-image: url(img/back.png);
+    position: relative;     
+}
+.background-right{
+    display: block;
+    height: 375px;
+    width: 520px;
+    background-image:url(img/Clip.png)  ;
+    position: relative;    
+}
+.logo{
+    top: 33px;
+    left: 210px;
+    z-index: 1;    
+    position: absolute; 
+}
+.background-left__text{
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 210px;
+    width: 273px;
+    gap: 9px;
+}
+.background-left__title{
+    color: #3CA043;
+    font-size: 33.93px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.background-left__subtitle{
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.background-right__text{
+    display: block;
+    position: absolute;
+    width: 180px;
+    top: 288px;
+    right: 423px;
+    color: #3CA043;
+    font-size: 18.35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.background-right__subtitle{
+    display: block;
+    position: absolute;
+    top: 400px;
+    right: 200px;
+}
+.language__list{
+    display: flex;
+    gap: 6px;   
+}
+.language__item{
+    list-style-type: none;
+}
+.language__item:hover .language__item_text {
+    color: #3CA043;
+}
+
+.language__item_text{
+    color: #9E9E9E;
+    font-size: 12.71px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.active{
+    color: #3CA043;
+}
+.header__btn{
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    
+    align-items: center;
+    gap: 40px;
+}
+.btn{  
+    display: flex;
+    align-items: center;      
+    color: #3CA043;
+    font-size: 18.35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 27px ;
+    border: 1px solid #3CA043;
+    background-color: #fff;
+}
+.title{
+    color: #3CA043;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    color: #000;
+
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.title-big{
+    color: #3CA043;
+font-size: 33.93px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list{
+    list-style-type: none;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align:initial;
+    
+}
+.item-svg_1{
+   margin-right: 25px;    
+}
+.item-svg_2{
+    margin-right: 18px;     
+ }
+
+ .item-svg_3{
+    margin-right: 23px;     
+ }
+.content__advantages{
+    display: flex;
+    gap: 100px;
+}
+.content__advantages_title{
+    width: 278px;
+}
+.content__advantages_list{
+    width:446px;
+   display: flex;
+   flex-direction: column;
+    gap: 22px;    
+}
+.content__advantages_item{
+    display: flex;
+}
+.item-text{
+    max-width: 383px;    
+}
+
+.content__info{
+    margin-top: 70px;  
+    display: flex;    
+   
+    flex-wrap: wrap;
+    
+}
+.content__info_top-left{
+   max-height:477px; 
+}
+.top-left {
+   margin-left: 175px;
+}
+.top-left_img{
+   margin-top: 80px;
+   max-width: 560px;
+   height: 360px;
+  
+}
+.content__info_top-right{
+    max-height:477px;
+    
+}
+.top-right{
+    display: block;
+   max-width: 450px;
+    position: absolute;
+}
+
+.img-stripes{
+    min-width: 625px;
+    display: block;
+    position: relative;
+    top:-100px;
+    z-index: -1;
+}
+
+.top-right_title{
+    color: #3CA043;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40px;
+    
+}
+
+.top-right_text{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 80px;
+    min-width: 358px;
+
+    
+}
+
+.content__info_bottom-left{
+   
+    width: 560px;
+}
+
+.bottom-left_title{
+    color: #3CA043;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 295px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.content__list{
+    margin-top: 60px;
+    display: flex;
+}
+
+.list-left{
+    width:446px;
+    display: flex;
+    flex-direction: column;
+     gap: 22px;  
+}
+
+.list-right{
+    width:446px;
+    display: flex;
+    flex-direction: column;
+     gap: 22px;  
+}
+
+
+.list_item{
+    display: flex;
+    gap: 15px;
+}
+
+.svg{
+    /* margin-left: 0; */
+    text-align: right;
+    width: 29px;
+}
+
+.content__video{
+    margin-top: 60px;
+}
+.video-title{
+    
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.video{
+    margin: 60px auto 42px;
+    
+}
+.video__btn{
+    display: flex;
+    margin: 40px auto 60px;
+}
+.content__offers{
+    background-color: #F0EDEB;
+    padding: 40px 0 60px;
+    
+}
+
+.offers-title{
+    
+    text-align: center;
+}
+
+.offers-list{
+    display: flex;
+    flex-direction: column;
+     gap: 22px;
+     max-width: 650px;
+     margin: 30px auto 0 ;
+     text-align: center;
+}
+
+
+.offers__btn{
+    display: flex;
+    margin: 50px auto ;
+    background-color:#F0EDEB ;
+}
+
+.partners-img{
+    
+    justify-content: center;
+    padding: 0;
+   margin: 0 auto;
+    display: flex;
+    width: 1440px;
+}
+
+
+.partners-title{
+    margin-top: 50px;
+    text-align: center;
+}
+    
+.partners-list{
+    display: flex;
+    flex-direction: column;
+     gap: 22px;
+     max-width: 650px;
+     text-align: center;
+    margin: 30px auto 0;
+}
+
+.partners__btn{
+    display: flex;
+    margin: 50px auto ;
+}
+
+.content__team{
+    background-color:#F0EDEB;
+    padding-bottom: 55px;
+    
+}
+.team-title{
+    padding-top: 40px;
+    text-align: center;
+}
+.team-text{
+    text-align: center;
+    margin-top: 15px;
+}
+.carousel-container {
+    
+    position: relative;
+    width: 780px; /* Изменили ширину контейнера на 800px */
+    margin: 30px auto;
+    overflow: hidden; /* Скрываем содержимое, выходящее за пределы контейнера */
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease; /* Добавим плавный переход */
+  }
+
+  .carousel-slide {
+    flex: 0 0 250px;
+    margin: 0 5px;
+  }
+
+  .block {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .controls {
+    position: relative;
+    top:-150px;
+    width: 880px;
+    margin: auto;
+  }
+
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    background-color:#F0EDEB;;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .prev-btn {
+    left: -20px;
+  }
+
+  .next-btn {
+    right: 15px;
+  }
+
+  .prev-btn svg, .next-btn svg {
+    width: 20px; /* Увеличим размер SVG-иконок */
+    height: 20px;
+  }
+
+  .block-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 17px;
+    padding: 0 17px;
+    margin-top: 20px;
+  }
+
+  .block__btn{
+    display: flex;
+    margin: auto auto 17px;
+}
+
+.block-title{
+  
+   width: 250px;
+   height: 68px;
+    background-image: url(./img/Group.png) ;
+background-repeat:no-repeat;
+}
+
+.title-block{
+    padding: 23px 50px;
+    
+}
+
+.exception{
+    padding: 14px 15px 11px;
+    text-align: center;
+}
+.partners__btn{
+    display: flex;
+    margin: 50px auto 50px;
+}
+.content__news{
+    margin-top: 42px;
+}
+
+.news-title{
+    text-align: center;
+}
+.news-text{
+text-align: center;
+margin-top: 14px;
+}
+
+.window-date{
+    color: #B2B2B2;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.news-window{
+    margin-top: 35px;
+    border: 1px solid #3CA043;
+    padding: 25px 30px 35px;
+}
+.window__btn{
+    display: flex;
+    margin: 50px auto 0;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.footer-text{
+    color: #878787;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.left-item,.right-item,.center-item{
+    list-style-type: none;
+}
+.right-list{
+    display: flex;
+    gap: 20px;
+    
+}
+.link{
+    text-decoration: none;
+    color: #878787;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.esp{
+    padding-right: 40px;
+}
+
+.modal-background {
+    
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal-container{
+    display: flex;
+    gap:160px;
+}
+
+/* Стили для модального окна */
+.modal {
+    background: #fff;
+    width: 1200px;
+    padding: 70px 50px 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+    
+}
+.modal-text{
+    align-items: start;
+}
+.modal-title{
+margin-bottom: 20px;
+}
+.modal-info_list{
+    text-align: center;
+    margin-left: 160px;
+}
+.modal-info_item{
+    margin-top: 60px;
+}
+
+/* Стили для кнопки закрытия */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Стили для формы в модальном окне */
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.modal-column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+    
+    padding: 15px;
+    margin: 15px;
+    border: none;
+    
+    background: #f0f1f8;
+   
+}
+
+textarea{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+   
+    border: none;
+    
+    background: #f0f1f8;
+}
+
+
+/* Стили для половины кнопки отправить */
+.submit-btn {
+    border: none;
+    margin-top: 20px;
+    background: #3CA043;
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
